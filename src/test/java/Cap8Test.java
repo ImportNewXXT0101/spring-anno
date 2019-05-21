@@ -1,11 +1,9 @@
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
-import com.enjoy.cap7.config.Cap7MainConfigOfLifeCycle;
-import com.enjoy.cap8.bean.Bird;
-import com.enjoy.cap8.config.Cap8MainConfig;
+import com.xxt.spring.cap8.bean.Bird;
+import com.xxt.spring.cap8.config.Cap8MainConfig;
 
 public class Cap8Test {
 	@Test

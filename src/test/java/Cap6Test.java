@@ -1,9 +1,8 @@
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.enjoy.cap1.util.PU;
-import com.enjoy.cap5.config.Cap5MainConfig;
-import com.enjoy.cap6.config.Cap6MainConfig;
+import com.xxt.spring.cap1.util.PU;
+import com.xxt.spring.cap6.config.Cap6MainConfig;
 
 public class Cap6Test {
 	@Test

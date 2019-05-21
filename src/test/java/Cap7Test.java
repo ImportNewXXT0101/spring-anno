@@ -1,8 +1,7 @@
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.enjoy.cap7.config.Cap7MainConfigOfLifeCycle;
+import com.xxt.spring.cap7.config.Cap7MainConfigOfLifeCycle;
 
 public class Cap7Test {
 	@Test

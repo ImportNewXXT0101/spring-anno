@@ -1,7 +1,7 @@
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.enjoy.cap5.config.Cap5MainConfig;
+import com.xxt.spring.cap5.config.Cap5MainConfig;
 
 public class Cap5Test {
 	@Test

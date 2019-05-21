@@ -1,20 +1,8 @@
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.core.env.ConfigurableEnvironment;
 
-import com.enjoy.cap10.aop.Calculator;
-import com.enjoy.cap10.aop.Calculator2;
-import com.enjoy.cap10.config.Cap10MainConfig;
-import com.enjoy.cap7.config.Cap7MainConfigOfLifeCycle;
-import com.enjoy.cap8.bean.Bird;
-import com.enjoy.cap8.config.Cap8MainConfig;
-import com.enjoy.cap9.bean.Moon;
-import com.enjoy.cap9.bean.Sun;
-import com.enjoy.cap9.config.Cap9MainConfig;
-import com.enjoy.cap9.dao.TestDao;
-import com.enjoy.cap9.service.TestService;
+import com.xxt.spring.cap10.aop.Calculator2;
+import com.xxt.spring.cap10.config.Cap10MainConfig;
 
 public class Cap10Test {
 	
@@ -35,11 +23,12 @@ public class Cap10Test {
 		}
 		
 		c.div(4, 2);
-		
-		
-		app.close();
-	
-		
-	}
+        String s = "sdfsdf sdfsdf ".replaceAll("asd", "asdasda");
+
+        app.close();
+        Integer integer = Integer.valueOf("21");
+        long l = integer.longValue();
+
+    }
 	
 }

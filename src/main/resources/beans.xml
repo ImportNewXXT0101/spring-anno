@@ -3,14 +3,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="person" class="com.enjoy.cap1.Person">
+	<bean id="person" class="com.xxt.spring.cap1.Person">
 		<property name="name" value="james"></property>
 		<property name="age" value="19"></property>
+		<property name="dog" ref="dog"></property>
 	</bean>
 	
-	<bean id="dog" class="com.enjoy.cap1.entity.Dog">
-		<property name="name" value="james"></property>
-		<property name="age" value="19"></property>
+	<bean id="dog" class="com.xxt.spring.cap1.entity.Dog">
+		<property name="name" value="wangcai"></property>
+		<property name="age" value="2"></property>
 	</bean>
 	
 </beans>
